@@ -434,12 +434,3 @@ export const getDefer = () => {
 
   return defer
 }
-
-/**
- * Deep clone the given object.
- *
- * @param {*} obj Object to clone
- */
- export const deepClone = obj => {
-  return JSON.parse(JSON.stringify(obj))
-}
